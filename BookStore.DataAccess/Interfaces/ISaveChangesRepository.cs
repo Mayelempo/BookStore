@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BookStore.DataAccess.Entities
+namespace BookStore.DataAccess.Interfaces
 {
-    internal class User
+    public interface ISaveChangesRepository
     {
+        Task SaveChangesAsync();
     }
 }
