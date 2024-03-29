@@ -8,7 +8,7 @@ namespace BookStore.BusinessLogic.Dtos.Collections
 {
     public class CollectionDto
     {
-        public string Name { get; set; }
+        public string Name { get; set; } 
         public string Tags { get; set; }
         public string Description { get; set; }
         public string ImageUrl { get; set; }
